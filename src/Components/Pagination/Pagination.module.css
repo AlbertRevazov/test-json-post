@@ -1,0 +1,29 @@
+.pagination_root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.item,
+.active {
+  margin: 0 3px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.item:hover {
+  color: orange;
+}
+
+.active {
+  color: orange;
+}
+
+.pagination_btn {
+  background-color: #00000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

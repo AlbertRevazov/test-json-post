@@ -1,0 +1,38 @@
+.post_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    min-height: 90vh;
+    margin: 0 auto;
+}
+
+.post_root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: rgba(37, 4, 38, 0.414);
+    border-radius: 14px;
+    box-shadow: -62px 22px 802px red, 62px -22px 802px blue;
+}
+
+.post {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: default;
+}
+
+.post_root h4 {
+    color: gray;
+}
+
+.post_root h5 {
+    color: orangered;
+}
+
+.post::first-letter {
+    text-transform: uppercase;
+}

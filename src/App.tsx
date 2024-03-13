@@ -1,5 +1,21 @@
-export const App = () => {
-  return <div className="App">Learn React</div>;
-};
+import { Routes, Route } from "react-router-dom";
+import { List } from "./Components/List";
+import { PostPage } from "./Components/Post";
+import "./App.css";
 
-export default App;
+export const App = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<List />} />
+      <Route path=":id" element={<PostPage />} />
+      <Route
+        path="*"
+        element={
+          <div className="error">
+            <h2>Ошибочка, нет такой страницы</h2>
+          </div>
+        }
+      />
+    </Routes>
+  );
+};

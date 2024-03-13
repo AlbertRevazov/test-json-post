@@ -1,0 +1,33 @@
+.cards_root {
+  max-width: 1257px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 90vh;
+  box-shadow: 16px -300px 140px orange;
+}
+
+.cards_item {
+  border-bottom: 1px solid grey;
+  border-left: 4px solid orange;
+}
+
+.blockquote_post {
+  font-family: Rubik;
+  font-weight: 400;
+  color: gray;
+  margin: 10px;
+  padding: 0 10px;
+  font-size: 20px;
+
+  p::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+.blockquote_post cite {
+  color: orange;
+}
+
+.blockquote_post::first-letter {
+  text-transform: uppercase;
+}
